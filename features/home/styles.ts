@@ -1,0 +1,173 @@
+import { StyleSheet } from 'react-native';
+
+export const styles = StyleSheet.create({
+  safeArea: {
+    flex: 1,
+    backgroundColor: '#edf1ff',
+  },
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    padding: 20,
+  },
+  card: {
+    backgroundColor: '#ffffff',
+    borderRadius: 20,
+    padding: 20,
+    gap: 12,
+    maxHeight: '90%',
+    borderWidth: 1,
+    borderColor: '#e9ecfb',
+    shadowColor: '#202a4a',
+    shadowOffset: { width: 0, height: 12 },
+    shadowOpacity: 0.12,
+    shadowRadius: 16,
+    elevation: 6,
+  },
+  title: {
+    fontSize: 30,
+    fontWeight: '800',
+    color: '#16213e',
+    textAlign: 'center',
+  },
+  subtitle: {
+    fontSize: 14,
+    textAlign: 'center',
+    color: '#6f7690',
+    marginBottom: 4,
+  },
+  input: {
+    borderWidth: 1,
+    borderColor: '#d9deef',
+    borderRadius: 12,
+    paddingHorizontal: 14,
+    paddingVertical: 12,
+    fontSize: 16,
+    color: '#16213e',
+    backgroundColor: '#f8faff',
+  },
+  buttonBase: {
+    borderRadius: 12,
+    paddingVertical: 12,
+    alignItems: 'center',
+  },
+  primaryButton: {
+    backgroundColor: '#2563eb',
+  },
+  secondaryButton: {
+    backgroundColor: '#0f172a',
+  },
+  dangerButton: {
+    backgroundColor: '#dc2626',
+  },
+  buttonPressed: {
+    opacity: 0.85,
+  },
+  buttonText: {
+    color: '#ffffff',
+    fontSize: 16,
+    fontWeight: '700',
+  },
+  averageCard: {
+    backgroundColor: '#1d4ed8',
+    borderRadius: 14,
+    paddingVertical: 12,
+    paddingHorizontal: 14,
+    marginTop: 2,
+    marginBottom: 6,
+  },
+  averageLabel: {
+    color: '#bfdbfe',
+    fontSize: 13,
+    fontWeight: '600',
+  },
+  averageValue: {
+    color: '#ffffff',
+    fontSize: 28,
+    fontWeight: '800',
+    marginTop: 2,
+  },
+  listTitle: {
+    fontSize: 16,
+    fontWeight: '700',
+    color: '#16213e',
+  },
+  list: {
+    maxHeight: 250,
+  },
+  noteRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    paddingVertical: 11,
+    paddingHorizontal: 12,
+    borderRadius: 12,
+    backgroundColor: '#f8faff',
+    borderWidth: 1,
+    borderColor: '#e1e7fb',
+    marginTop: 8,
+  },
+  noteLabel: {
+    color: '#1d4ed8',
+    fontWeight: '800',
+    fontSize: 16,
+  },
+  noteValue: {
+    fontSize: 18,
+    fontWeight: '800',
+    color: '#16213e',
+  },
+  emptyCard: {
+    marginTop: 8,
+    padding: 12,
+    borderRadius: 12,
+    backgroundColor: '#f8faff',
+    borderWidth: 1,
+    borderColor: '#e1e7fb',
+  },
+  empty: {
+    fontSize: 15,
+    color: '#6b7280',
+    textAlign: 'center',
+  },
+  actionsRow: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    gap: 12,
+    marginTop: 8,
+  },
+  actionButton: {
+    flex: 1,
+  },
+  modalBackdrop: {
+    flex: 1,
+    backgroundColor: 'rgba(0,0,0,0.35)',
+    justifyContent: 'center',
+    alignItems: 'center',
+    padding: 24,
+  },
+  modalCard: {
+    width: '100%',
+    maxWidth: 360,
+    backgroundColor: '#ffffff',
+    borderRadius: 12,
+    padding: 18,
+    gap: 16,
+  },
+  modalText: {
+    fontSize: 16,
+    textAlign: 'center',
+    color: '#0f172a',
+  },
+  modalButton: {
+    alignSelf: 'center',
+    backgroundColor: '#2563eb',
+    paddingHorizontal: 18,
+    paddingVertical: 10,
+    borderRadius: 8,
+  },
+  modalButtonText: {
+    color: '#ffffff',
+    fontWeight: '700',
+  },
+});
